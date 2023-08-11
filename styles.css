@@ -1,0 +1,307 @@
+#header {
+                
+    margin: 15px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    background-color: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.signin{
+    background-color: #4285f4;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 13px 35px;
+}
+.signin:hover {
+    background-color: #1060e9;
+    color: white;
+}
+
+#sr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.searchbar {
+    width: 584px;
+    min-height: 47px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 24px;
+    justify-content: space-evenly;
+    
+}
+.searchbar input {
+        background: transparent;
+        flex: 1;
+        border: none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: medium;
+        padding: 12px 15px;
+
+}
+.icons {
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    
+    
+}
+
+.microphone {
+    display: flex;
+    background-color:none;
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    
+    
+    
+    
+  
+}
+
+.lens {
+    background-color: none;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+    
+}
+
+.microphone img {
+        align-self: center;
+        height: 35px;
+        width: 30px;
+}
+
+.lens img {
+    align-self: center;
+    height: 25px;
+    width: 25px;
+}
+  
+img {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#logoarea {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+    width: 756;
+    height: 105px;
+}
+
+.logo {
+   margin-top: 10px;
+    width: 272px;
+    height: 92px;
+    
+    
+}
+
+.sbuttons {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    align-self: center;
+    justify-self: center;
+    background-color: none;
+    
+}
+
+.subbutton {
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #3c4043;
+    border: 1px solid white;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+         
+}
+
+.subbutton:hover {
+    border: 1px solid lightgray;
+    box-shadow: 1px;
+    
+}
+
+#advlogo{
+    float: left;
+    width: 74px;
+    height: 24px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+   
+
+ }
+
+ #advlogoarea{
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     color: aqua;
+    
+ }
+
+ #heading{
+     background-color: none;
+     font-size: 26px;
+     text-align: left;
+     margin: 40px 40px;
+     color: #d93025;
+     height: 30px;
+     border-bottom: 1px solid;
+     border-color: rgb(197, 195, 195);
+     padding-bottom: 30px;
+ }
+
+ #advstart{
+     background-color: none;
+     font-size: 20px;
+     text-align: left;
+     margin: 40px 40px;
+     color: #333;
+     height: 15px;
+     
+ }
+
+ #questions {
+     float: left;
+     margin: 0px 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     justify-content: space-between;
+ }
+
+ 
+ label {
+     display: inline-block ;
+     width: 200px;
+ }
+
+ .advbar {
+     display: flex;
+     width: 50%;
+     height: 24px;
+     
+ }
+
+ #advinput {
+     margin-left: 40px;
+     
+ }
+
+ #advbuttonarea {
+     display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+align-self: center;
+justify-self: center;
+background-color: none;
+ }
+
+ #advbutton {
+     background-color: #4285f4;
+     border-radius: 5px;
+     border: none;
+     text-align: center;
+     color: white;
+     margin: 0px;
+     padding: 10px 10px;
+     margin-left: 310px;
+     width: 150px;
+     height: 30px;
+ }
+
+ #advbutton:hover {
+     background-color: #1060e9;
+     color: white;
+ }
+
+ .fields {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .searchicon2{
+    display: flex;
+    background-color:none;
+    height: 45px;
+    width: 45px;
+    border: 0px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+
+}   
+
+.searchimage {
+    margin-right: 20px;
+    margin-left: 5px;
+    
+}
+
+.logoimages {
+    margin-top: 10px;
+    width: 272px;
+    height: 92px;
+}
+
+.rightcorner {
+    position: relative;
+    top: 65px; ;
+    right: 76px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    
+} 
+
